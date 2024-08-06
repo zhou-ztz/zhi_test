@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "OAuthSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "a short OAuthSDK."
   spec.description  = <<-DESC
                       a sdk for user to user hh.
@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author       = { "tingzhi.zhou" => "tingzhi.zhou@yiartkeji.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => 'https://github.com/zhou-ztz/zhi_test.git', :tag => '1.0.2' }
+  spec.source       = { :git => 'https://github.com/zhou-ztz/zhi_test.git', :tag => '1.0.3' }
   spec.vendored_frameworks = "OAuthSDK.xcframework"
-  spec.source_files  = "OAuthSDK.xcframework/**/*.h"
+  spec.source_files  = "OAuthSDK.xcframework/ios-arm64/OAuthSDK.framework/**/*.h"
   spec.requires_arc     = true
 end
